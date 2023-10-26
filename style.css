@@ -24,11 +24,6 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-    background: #a04747;
-    text-shadow: none;
-}
-
 ::selection {
     background: #a04747;
     text-shadow: none;
@@ -89,28 +84,40 @@ body {
 }
 
 a {
-    color: orangered;
+    color: #ff7f50; /* Coral */
 }
 
 a:visited {
-    color: rgb(182, 0, 0);
+    color: #ff6347; /* Tomato */
 }
 
 a:hover {
-    color: red;
+    color: #ff4500; /* Orange Red */
 }
 
-/* a:active {
-    color: orangered;
-} */
+.box {
+    border-width: 2px;
+    border-color: #FFFFFF #808080 #808080 #FFFFFF;
+    border-style: solid;
 
-.t-list {
-    background-color: #623232;
-    box-sizing: content-box;
-    width: 33%;
+    background-color: #C0C0C0;
+    color: #353535;
+    width: 400px;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
+/* switch to .title h2 if no other uses arise */
+.box h2 {
+    margin: 0.5em 0;
+}
 
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* ==========================================================================
    Helper classes
