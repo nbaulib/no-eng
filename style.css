@@ -44,7 +44,7 @@ a {
     color: #ff6347; /* Tomato */
 }
 
-/* switch to .title h2 if no other uses arise */
+/* switch to .title h3 if no other uses arise */
 .box h3 {
     margin: 0.5em 0;
 }
