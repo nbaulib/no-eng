@@ -88,4 +88,10 @@ button {
     .box {
         width: 400px;
     }
+
+    .countd {
+        position:relative;
+        float:right;
+        text-align: center;
+    }
 }
