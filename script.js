@@ -17,7 +17,7 @@ toggleButtons.forEach((button, index) => {
 
 
 function countdownTimer() {
-    const difference = +new Date("2023-11-14T10:00:00") - +new Date();
+    const difference = +new Date("2023-11-21T10:00:00") - +new Date();
     let remaining = "AIRING NOW";
 
     if (difference > 0) {

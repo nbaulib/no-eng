@@ -90,8 +90,9 @@ button {
     }
 
     .countd {
-        position:relative;
-        float:right;
+        position:absolute;
+        top:15px;
+        right:10px;
         text-align: center;
     }
 }
