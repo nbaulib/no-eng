@@ -21,8 +21,8 @@ body {
 }
 
 .col {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .playlist-box {
@@ -41,7 +41,11 @@ body {
 }
 
 a {
-    color: #ff6347; /* Tomato */
+    color: #FCFF4B;
+}
+
+a:hover {
+    color: #ccc;
 }
 
 /* switch to .title h3 if no other uses arise */
@@ -50,7 +54,11 @@ a {
 }
 
 .box a {
-    color: #151515;
+    color: #222;
+}
+
+.box a:hover {
+    color: #FCFF4B;
 }
 
 .title {
@@ -66,6 +74,7 @@ button {
     margin: 5px 5px;
     padding: 0px 2px;
 }
+
 .content {
     display: none;
     padding: 20px 10px 10px 35px;
@@ -80,19 +89,21 @@ button {
 
 
 @media only screen and (min-width: 35em) {
+
     /* Style adjustments for viewports that meet the condition */
     .block {
         display: inline-block;
-        margin: 20px;    
+        margin: 20px;
     }
+
     .box {
         width: 400px;
     }
 
     .countd {
-        position:absolute;
-        top:15px;
-        right:10px;
+        position: absolute;
+        top: 15px;
+        right: 10px;
         text-align: center;
     }
 }
