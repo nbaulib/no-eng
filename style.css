@@ -20,9 +20,17 @@ body {
     margin: 15px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
 .col {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .playlist-box {
@@ -80,14 +88,6 @@ button {
     padding: 20px 10px 10px 35px;
 }
 
-/* Responsive styles */
-/* @media (min-width: 768px) {
-    body {
-        font-size: 1.2rem;
-    }
-} */
-
-
 @media only screen and (min-width: 35em) {
 
     /* Style adjustments for viewports that meet the condition */
@@ -105,5 +105,10 @@ button {
         top: 15px;
         right: 10px;
         text-align: center;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
     }
 }
