@@ -17,7 +17,7 @@ toggleButtons.forEach((button, index) => {
 
 
 function countdownTimer() {
-    const difference = +new Date("2023-11-21T10:00:00") - +new Date();
+    const difference = +new Date("2024-01-30T10:00:00") - +new Date();
     let remaining = "AIRING NOW";
 
     if (difference > 0) {
@@ -25,7 +25,7 @@ function countdownTimer() {
             days: Math.floor(difference / (1000 * 60 * 60 * 24)),
             hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
             minutes: Math.floor((difference / (1000 * 60)) % 60),
-            seconds: Math.floor((difference / 1000) % 60),
+            // seconds: Math.floor((difference / 1000) % 60),
         };
 
         remaining = Object.keys(parts).map(part => {
@@ -37,4 +37,4 @@ function countdownTimer() {
 }
 
 countdownTimer();
-setInterval(countdownTimer, 1000);
+setInterval(countdownTimer, 1000*60);
