@@ -111,3 +111,20 @@ button {
         flex-direction: row;
     }
 }
+
+.banner {
+    background-color: #fcff4bb7;
+    overflow-x: hidden;
+}
+
+.banner-content {
+    color: black;
+    display: block;
+    width: 100vw;
+    transform: translateX(0%);
+    animation: move 15s linear infinite alternate;
+}
+
+@keyframes move {
+    to { transform: translateX(89.5%); }
+}
